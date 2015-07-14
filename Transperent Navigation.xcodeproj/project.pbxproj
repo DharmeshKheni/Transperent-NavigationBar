@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E29DA71B54E6E0008226F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E29DA61B54E6E0008226F0 /* AppDelegate.swift */; };
+		04E29DA91B54E6E0008226F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E29DA81B54E6E0008226F0 /* ViewController.swift */; };
+		04E29DAC1B54E6E0008226F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E29DAA1B54E6E0008226F0 /* Main.storyboard */; };
+		04E29DAE1B54E6E0008226F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E29DAD1B54E6E0008226F0 /* Images.xcassets */; };
+		04E29DB11B54E6E0008226F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E29DAF1B54E6E0008226F0 /* LaunchScreen.xib */; };
+		04E29DBD1B54E6E0008226F0 /* Transperent_NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E29DBC1B54E6E0008226F0 /* Transperent_NavigationTests.swift */; };
+		04E29DC71B54E715008226F0 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04E29DC61B54E715008226F0 /* bg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E29DB71B54E6E0008226F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E29D991B54E6E0008226F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E29DA01B54E6E0008226F0;
+			remoteInfo = "Transperent Navigation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E29DA11B54E6E0008226F0 /* Transperent Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Transperent Navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E29DA51B54E6E0008226F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E29DA61B54E6E0008226F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04E29DA81B54E6E0008226F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04E29DAB1B54E6E0008226F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E29DAD1B54E6E0008226F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04E29DB01B54E6E0008226F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04E29DB61B54E6E0008226F0 /* Transperent NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transperent NavigationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E29DBB1B54E6E0008226F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E29DBC1B54E6E0008226F0 /* Transperent_NavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transperent_NavigationTests.swift; sourceTree = "<group>"; };
+		04E29DC61B54E715008226F0 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E29D9E1B54E6E0008226F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E29DB31B54E6E0008226F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E29D981B54E6E0008226F0 = {
+			isa = PBXGroup;
+			children = (
+				04E29DA31B54E6E0008226F0 /* Transperent Navigation */,
+				04E29DB91B54E6E0008226F0 /* Transperent NavigationTests */,
+				04E29DA21B54E6E0008226F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E29DA21B54E6E0008226F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E29DA11B54E6E0008226F0 /* Transperent Navigation.app */,
+				04E29DB61B54E6E0008226F0 /* Transperent NavigationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E29DA31B54E6E0008226F0 /* Transperent Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				04E29DA61B54E6E0008226F0 /* AppDelegate.swift */,
+				04E29DA81B54E6E0008226F0 /* ViewController.swift */,
+				04E29DC61B54E715008226F0 /* bg.jpg */,
+				04E29DAA1B54E6E0008226F0 /* Main.storyboard */,
+				04E29DAD1B54E6E0008226F0 /* Images.xcassets */,
+				04E29DAF1B54E6E0008226F0 /* LaunchScreen.xib */,
+				04E29DA41B54E6E0008226F0 /* Supporting Files */,
+			);
+			path = "Transperent Navigation";
+			sourceTree = "<group>";
+		};
+		04E29DA41B54E6E0008226F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E29DA51B54E6E0008226F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E29DB91B54E6E0008226F0 /* Transperent NavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E29DBC1B54E6E0008226F0 /* Transperent_NavigationTests.swift */,
+				04E29DBA1B54E6E0008226F0 /* Supporting Files */,
+			);
+			path = "Transperent NavigationTests";
+			sourceTree = "<group>";
+		};
+		04E29DBA1B54E6E0008226F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E29DBB1B54E6E0008226F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E29DA01B54E6E0008226F0 /* Transperent Navigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E29DC01B54E6E0008226F0 /* Build configuration list for PBXNativeTarget "Transperent Navigation" */;
+			buildPhases = (
+				04E29D9D1B54E6E0008226F0 /* Sources */,
+				04E29D9E1B54E6E0008226F0 /* Frameworks */,
+				04E29D9F1B54E6E0008226F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Transperent Navigation";
+			productName = "Transperent Navigation";
+			productReference = 04E29DA11B54E6E0008226F0 /* Transperent Navigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E29DB51B54E6E0008226F0 /* Transperent NavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E29DC31B54E6E0008226F0 /* Build configuration list for PBXNativeTarget "Transperent NavigationTests" */;
+			buildPhases = (
+				04E29DB21B54E6E0008226F0 /* Sources */,
+				04E29DB31B54E6E0008226F0 /* Frameworks */,
+				04E29DB41B54E6E0008226F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E29DB81B54E6E0008226F0 /* PBXTargetDependency */,
+			);
+			name = "Transperent NavigationTests";
+			productName = "Transperent NavigationTests";
+			productReference = 04E29DB61B54E6E0008226F0 /* Transperent NavigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E29D991B54E6E0008226F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Variya Soft Solutions";
+				TargetAttributes = {
+					04E29DA01B54E6E0008226F0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					04E29DB51B54E6E0008226F0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 04E29DA01B54E6E0008226F0;
+					};
+				};
+			};
+			buildConfigurationList = 04E29D9C1B54E6E0008226F0 /* Build configuration list for PBXProject "Transperent Navigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E29D981B54E6E0008226F0;
+			productRefGroup = 04E29DA21B54E6E0008226F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E29DA01B54E6E0008226F0 /* Transperent Navigation */,
+				04E29DB51B54E6E0008226F0 /* Transperent NavigationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E29D9F1B54E6E0008226F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E29DAC1B54E6E0008226F0 /* Main.storyboard in Resources */,
+				04E29DB11B54E6E0008226F0 /* LaunchScreen.xib in Resources */,
+				04E29DC71B54E715008226F0 /* bg.jpg in Resources */,
+				04E29DAE1B54E6E0008226F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E29DB41B54E6E0008226F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E29D9D1B54E6E0008226F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E29DA91B54E6E0008226F0 /* ViewController.swift in Sources */,
+				04E29DA71B54E6E0008226F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E29DB21B54E6E0008226F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E29DBD1B54E6E0008226F0 /* Transperent_NavigationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E29DB81B54E6E0008226F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E29DA01B54E6E0008226F0 /* Transperent Navigation */;
+			targetProxy = 04E29DB71B54E6E0008226F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E29DAA1B54E6E0008226F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E29DAB1B54E6E0008226F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E29DAF1B54E6E0008226F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E29DB01B54E6E0008226F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E29DBE1B54E6E0008226F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E29DBF1B54E6E0008226F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E29DC11B54E6E0008226F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Transperent Navigation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04E29DC21B54E6E0008226F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Transperent Navigation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04E29DC41B54E6E0008226F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Transperent NavigationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transperent Navigation.app/Transperent Navigation";
+			};
+			name = Debug;
+		};
+		04E29DC51B54E6E0008226F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Transperent NavigationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transperent Navigation.app/Transperent Navigation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E29D9C1B54E6E0008226F0 /* Build configuration list for PBXProject "Transperent Navigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E29DBE1B54E6E0008226F0 /* Debug */,
+				04E29DBF1B54E6E0008226F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E29DC01B54E6E0008226F0 /* Build configuration list for PBXNativeTarget "Transperent Navigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E29DC11B54E6E0008226F0 /* Debug */,
+				04E29DC21B54E6E0008226F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04E29DC31B54E6E0008226F0 /* Build configuration list for PBXNativeTarget "Transperent NavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E29DC41B54E6E0008226F0 /* Debug */,
+				04E29DC51B54E6E0008226F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E29D991B54E6E0008226F0 /* Project object */;
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="u9T-xl-iIg">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Transperent_Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EbO-4F-e6J">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="ErR-Fh-2ew"/>
+                                    <constraint firstAttribute="height" constant="600" id="qxt-8b-62k"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EbO-4F-e6J" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="AXT-KM-xu0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EbO-4F-e6J" secondAttribute="trailing" constant="-16" id="Rqx-ZT-p5t"/>
+                            <constraint firstItem="EbO-4F-e6J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="bEW-p3-qEw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EbO-4F-e6J" secondAttribute="bottom" id="dFc-HX-1Pc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="TBK-vU-SCE">
+                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="9Uw-5g-Bca"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="HCw-Hx-FSw"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="429"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gIy-TH-KQ2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="u9T-xl-iIg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aPi-yM-f6q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="N7H-r7-eae"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rKT-wg-WDU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="272" y="1090"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg.jpg" width="1104" height="768"/>
+    </resources>
+</document>
